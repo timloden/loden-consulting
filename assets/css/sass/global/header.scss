@@ -1,0 +1,11 @@
+.mobile-menu {
+    ul {
+        li {
+            @extend .nav-item;
+
+            a {
+                @extend .nav-link;
+            }
+        }
+    }
+}
