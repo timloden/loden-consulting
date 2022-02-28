@@ -1,12 +1,12 @@
 @import "https://fonts.googleapis.com/css2?family=Lato:wght@300;
 
 /*!
-Theme Name: Starter Theme
-Theme URI: https://timloden.com/
+Theme Name: Loden Consulting
+Theme URI: https://loden.consulting/
 Author: Tim Loden
-Author URI: https://timloden.com/
-Description: Starter theme for projects
-Version: 1.0.1
+Author URI: https://loden.consulting/
+Description: 
+Version: 0.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
 
@@ -1158,11 +1158,11 @@ textarea.form-control-lg{min-height:calc(1.5em + 1rem + 2px)}
 .visible{visibility:visible !important}
 .invisible{visibility:hidden !important}
 .lar,.las,.lab{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1}
-@font-face{font-family:Line Awesome Brands;font-style:normal;font-weight:normal;font-display:auto;src:url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-brands-400.eot");src:url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-brands-400.eot?#iefix") format("embedded-opentype"),url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-brands-400.woff2") format("woff2"),url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-brands-400.woff") format("woff"),url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-brands-400.ttf") format("truetype"),url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-brands-400.svg#lineawesome") format("svg")}
+@font-face{font-family:Line Awesome Brands;font-style:normal;font-weight:normal;font-display:auto;src:url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-brands-400.eot");src:url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-brands-400.eot?#iefix") format("embedded-opentype"),url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-brands-400.woff2") format("woff2"),url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-brands-400.woff") format("woff"),url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-brands-400.ttf") format("truetype"),url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-brands-400.svg#lineawesome") format("svg")}
 .lab{font-family:Line Awesome Brands;font-weight:400}
-@font-face{font-family:Line Awesome Free;font-style:normal;font-weight:400;font-display:auto;src:url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-regular-400.eot");src:url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-regular-400.eot?#iefix") format("embedded-opentype"),url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-regular-400.woff2") format("woff2"),url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-regular-400.woff") format("woff"),url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-regular-400.ttf") format("truetype"),url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-regular-400.svg#lineawesome") format("svg")}
+@font-face{font-family:Line Awesome Free;font-style:normal;font-weight:400;font-display:auto;src:url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-regular-400.eot");src:url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-regular-400.eot?#iefix") format("embedded-opentype"),url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-regular-400.woff2") format("woff2"),url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-regular-400.woff") format("woff"),url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-regular-400.ttf") format("truetype"),url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-regular-400.svg#lineawesome") format("svg")}
 .lar{font-family:Line Awesome Free;font-weight:400}
-@font-face{font-family:Line Awesome Free;font-style:normal;font-weight:900;font-display:auto;src:url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-solid-900.eot");src:url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-solid-900.eot?#iefix") format("embedded-opentype"),url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-solid-900.woff2") format("woff2"),url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-solid-900.woff") format("woff"),url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-solid-900.ttf") format("truetype"),url("/wp-content/themes/starter-theme/assets/fonts/line-awesome/la-solid-900.svg#lineawesome") format("svg")}
+@font-face{font-family:Line Awesome Free;font-style:normal;font-weight:900;font-display:auto;src:url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-solid-900.eot");src:url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-solid-900.eot?#iefix") format("embedded-opentype"),url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-solid-900.woff2") format("woff2"),url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-solid-900.woff") format("woff"),url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-solid-900.ttf") format("truetype"),url("/wp-content/themes/loden-consulting/assets/fonts/line-awesome/la-solid-900.svg#lineawesome") format("svg")}
 .las{font-family:Line Awesome Free;font-weight:900}
 .la-lg{font-size:1.33333em;line-height:.75em;vertical-align:-0.0667em}
 .la-xs{font-size:.75em}
