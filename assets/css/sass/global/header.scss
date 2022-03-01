@@ -5,6 +5,8 @@
 
             a {
                 @extend .nav-link;
+                @extend .text-dark;
+                @extend .text-center;
             }
         }
     }

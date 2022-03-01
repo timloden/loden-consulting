@@ -14,73 +14,12 @@
 
 </div><!-- #content -->
 
-<footer class="site-footer border-top">
-    <div class="container pt-5 pb-4">
-        <div class="row">
-            <div class="col-12 col-lg-8">
-                <div class="d-flex">
-                    <div class="col-4 pl-0">
-                        <h6>Link Header</h6>
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-4">
-                        <h6>Link Header</h6>
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-4 pr-0">
-                        <h6>Link Header</h6>
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link pl-0" href="<?php echo site_url(); ?>">Link</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4">
-                <h6>Newsletter</h6>
+<footer class="site-footer mt-5 pt-5">
 
-            </div>
-        </div>
-    </div>
-    <div class="copyright bg-primary">
+    <div class="copyright">
         <div class="container">
-            <p class="text-white m-0 p-2 text-center">&copy; Starter Theme <?php echo date( 'Y' ); ?></p>
+            <p class="text-muted m-0 p-2 text-center"><small>&copy; Loden Consulting LLC
+                    <?php echo date( 'Y' ); ?></small></p>
         </div>
 
     </div>

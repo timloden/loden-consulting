@@ -75,7 +75,7 @@
                             </label>
                         </div>
                         <div class="login-submit mb-3">
-                            <input type="submit" name="wp-submit" id="wp-submit" class="btn btn-primary d-block w-100"
+                            <input type="submit" name="wp-submit" id="wp-submit" class="btn btn-dark d-block w-100"
                                 value="<?php echo __( 'Sign In', 'sliced-invoices-client-area' ); ?>">
                             <input type="hidden" name="redirect_to" value="<?php echo $attributes['redirect']; ?>">
                         </div>
@@ -83,7 +83,8 @@
                     </form>
 
                     <?php do_action( 'login_footer' ); ?>
-                    <p class="mb-0 text-center"><a class="forgot-password" href="<?php echo wp_lostpassword_url(); ?>">
+                    <p class="mb-0 text-center"><a class="forgot-password text-black"
+                            href="<?php echo wp_lostpassword_url(); ?>">
                             <?php _e( 'Forgot your password?', 'sliced-invoices-client-area' ); ?>
                         </a></p>
 

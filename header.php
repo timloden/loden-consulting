@@ -28,30 +28,16 @@
     <div id="page" class="site">
 
         <header class="header">
-            <nav class="navbar navbar-expand-lg navbar-light border-bottom">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <?php 
-                        wp_nav_menu( array(
-                            'menu'            => 'header',
-                            'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
-                            'container'       => 'div',
-                            'container_class' => 'collapse navbar-collapse',
-                            'container_id'    => 'bs-example-navbar-collapse-1',
-                            'menu_class'      => 'navbar-nav mr-auto',
-                            'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
-                            'walker'          => new WP_Bootstrap_Navwalker(),
-                        ) );
-                        ?>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+            <nav class="navbar navbar-light">
+                <div class="container">
+                    <a class="navbar-brand fw-bold"
+                        href="<?php echo site_url(); ?>"><?php if (!is_front_page()) : ?>LODEN CONSULTING
+                        LLC<?php endif; ?></a>
+                    <div class="d-flex">
+                        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                            aria-controls="offcanvasRight">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                     </div>
                 </div>
             </nav>
@@ -75,5 +61,16 @@
                             'container_class'   => 'mobile-menu',
                         ) );
                     ?>
+
+                    <?php if (is_user_logged_in()) : ?>
+                    <ul class="nav flex-column border-top mt-3 pt-3">
+                        <li class="nav-item"><a class="nav-link text-center text-dark"
+                                href="<?php echo site_url(); ?>/client-area">My Account</a></li>
+                        <li class="nav-item"><a class="nav-link text-center text-dark"
+                                href="<?php echo site_url(); ?>/client-area">Edit Profile</a></li>
+                        <li class="nav-item"><a class="nav-link text-center text-dark"
+                                href="<?php echo wp_logout_url( home_url() ); ?>">Logout</a></li>
+                    </ul>
+                    <?php endif; ?>
                 </div>
             </div>
